@@ -160,7 +160,7 @@ void keyExpander(uint8_t* key, uint8_t* expandedKey)
 		if(i%4 == 0)
 		{
 			RotWord(tempWord);
-			//Substitute the SubstituteBytes(byte input) from Sunny
+			//Substitute the SubstituteBytes(byte input)
 			for(k=0; k<4; k++)
 			{
 				byte = SubstituteBytes(tempWord[k],0);
